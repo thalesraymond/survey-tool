@@ -11,6 +11,7 @@ flask-env = "*"
 sqlalchemy = "*"
 flask-sqlalchemy = "*"
 flask-jwt-extended = "*"
+alembic = "*"
 
 [requires]
 python_version = "3.7"

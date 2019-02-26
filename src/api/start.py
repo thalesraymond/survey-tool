@@ -4,6 +4,8 @@ from flask_jwt_extended import JWTManager
 app = Flask(__name__)
 
 app.config['JWT_SECRET_KEY'] = 'super-secret'  # Not so secret
+app.config['SECRET_KEY'] = 'super-secret'  # Not so secret
+
 jwt = JWTManager(app)
 
 if __name__ == '__main__':
